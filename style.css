@@ -1,1 +1,66 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+
+#contact{
+       padding: 30px;
+       display: flex;
+       justify-content: space-around;
+       
+}
+
+#contact form{
+       border-left: 1px solid rgba(154, 141, 125, 0.126) ;
+       border-right: 1px solid rgba(154, 141, 125, 0.126) ;
+       display: flex;
+       flex-direction: column;
+       padding: 12px;
+       border-radius: 12px;
+}
+
+#contact input{
+      border-radius: 16px;
+      margin-bottom: 12px;
+      border-bottom: 2px solid rgba(133, 133, 133, 0.19) ;
+}
+
+#contact input:focus{
+      border-bottom: 3px solid rgb(0, 0, 0);
+}
+#contact button{
+        margin-left: 50px;
+        border-radius: 13px;
+}
+
+#form_contact{
+       width: 48%;
+       justify-self: center;
+}
+
+#form_contact_h5{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contact_f_l_id{
+      display: flex;
+      flex-direction: column;
+       align-items: end;
+      color: rgb(0, 0, 0);
+}
+
+.contac_f_l_class{
+      width: 230px;
+}
+
+#img_contact{
+     margin-top: -90px;
+     margin-left: -100px;
+}
+#a{
+     background-color: brown;
+}
+.b{
+    background-color: blue;
+}
+
+
+

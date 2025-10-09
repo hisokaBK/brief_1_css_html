@@ -29,7 +29,7 @@
           >Contact</a
         >
         <a
-          href="#contact"
+          href="./home.html"
           class="w3-bar-item w3-button w3-right w3-light-grey w3-mobile"
           >Book Now</a
         >
@@ -37,15 +37,26 @@
     </header>
 
       <div class="w3-container" id="contact">
-        <h2>Contact</h2>
+        <div>
+        <h2 id="form_contact_h5">Contact</h2>
         <p>If you have any questions, do not hesitate to ask them.</p>
-        <i class="fa fa-map-marker w3-text-red" style="width:30px"></i> Chicago, US<br>
-        <i class="fa fa-phone w3-text-red" style="width:30px"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope w3-text-red" style="width:30px"> </i> Email: mail@mail.com<br>
-       <form action="/action_page.php" target="_blank">
-           <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-           <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
-           <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <div id="contact_f_l_id">
+        <p class="contac_f_l_class"><i class="fa fa-map-marker w3-text-red" style="width:30px"></i> Chicago, US</p>
+        <p class="contac_f_l_class"><i class="fa fa-phone w3-text-red" style="width:30px"></i> Phone: +00 151515</p>
+        <p class="contac_f_l_class"><i class="fa fa-envelope w3-text-red" style="width:30px"> </i> Email: mail@mail.com</p>
+      </div>
+        <div id="img_contact">
+            <img src="./images/contac.png" width="400px" alt="">
+        </div>
+        </div>
+       <form action="/action_page.php" target="_blank" id="form_contact">
+           <h5 id="form_contact_h5">Leave us a message her</h5>
+   
+           <p><input class="w3-input w3-padding-16 " type="text" placeholder="Name" required name="Name"></p>
+           <p><input class="w3-input w3-padding-16 " type="text" placeholder="Email" required name="Email"></p>
+          
+        
+          <textarea name="" id="" class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></textarea></p>
            <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
        </form>
    </div>
