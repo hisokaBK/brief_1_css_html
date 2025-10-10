@@ -62,5 +62,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     background-color: blue;
 }
 
+@media only screen and (max-width: 600px) {
+  #contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+  }
 
+  #img_contact{
+     margin-top: -90px;
+    
+}
+  #form_contact{
+       width: 78%;
+       justify-self: center;
+}
+}
 
